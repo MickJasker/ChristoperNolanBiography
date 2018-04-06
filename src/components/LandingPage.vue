@@ -2,15 +2,15 @@
     <div>
         <div class="page">
             <section class="landing">
-                <video src="../assets/Interstellar.mp4" autoplay muted loop></video>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Q2vz54Ov6UQ?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 <div class="logo">
                     <img class="logo" src="../assets/logo.svg" alt="" id="el1">
                 </div>
                 <h1>A STORY THROUGH TIME</h1>
             </section>
-            <section class="biography">
-                <h1>Who is <span style="color: darkred;">Christopher Nolan</span>?</h1>
-                <p>
+            <section class="biography" >
+                <h1  data-aos="fade-up">Who is <span style="color: #CC281B;">Christopher Nolan</span>?</h1>
+                <p  data-aos="fade-up">
                     Best known for his cerebral, often nonlinear storytelling, acclaimed writer-director was born on
                     July 30, 1970 in London, England. Over the course of 15 years of filmmaking, Nolan has gone from
                     low-budget independent films to working on some of the biggest blockbusters ever made.<br><br>At 7
@@ -48,17 +48,20 @@
                 </p>
             </section>
             <section class="filmoghraphy">
-                <h1>2000-2017</h1>
-                <div class="films">
-                    <router-link to="/"><img src="../assets/logo.png" alt="Momento"></router-link>
-                    <router-link to="/"> <img src="../assets/logo.png" alt="Batman Begins"></router-link>
-                    <router-link to="/"><img src="../assets/logo.png" alt="The Dark knight"></router-link>
-                    <router-link to="/"><img src="../assets/logo.png" alt="The Dark knight rises"></router-link>
-                    <router-link to="/"><img src="../assets/logo.png" alt="Inception"></router-link>
-                    <router-link to="/"><img src="../assets/logo.png" alt="Interstellar"></router-link>
-                    <router-link to="/"><img src="../assets/logo.png" alt="Dunkirk"></router-link>
+                <h1  data-aos="fade-up">2000-2017</h1>
+                <div class="films" data-aos="fade-up">
+                    <router-link to="Momento"><img src="../assets/momento.jpg" alt="Momento"><h4>Momento</h4></router-link>
+                    <router-link to="/"> <img src="../assets/Batman_Begins.jpg" alt="Batman Begins"><h4>Batman Begins</h4></router-link>
+                    <router-link to="/"><img src="../assets/darkKnight.jpeg" alt="The Dark knight"><h4>The Dark Knight</h4></router-link>
+                    <router-link to="/"><img src="../assets/inception.jpg" alt="Inception"><h4>Inception</h4></router-link>
+                    <router-link to="/"><img src="../assets/darkKnightRises.jpeg" alt="The Dark knight rises"><h4>The Dark Knight Rises</h4></router-link>
+                    <router-link to="Interstellar"><img src="../assets/interstellar.jpg" alt="Interstellar"><h4>Interstellar</h4></router-link>
+                    <router-link to="/"><img src="../assets/dunkirk.jpg" alt="Dunkirk"><h4>Dunkirk</h4></router-link>
                 </div>
             </section>
+            <footer>
+                <h4>Mick Jasker Media &copy; 2018</h4>
+            </footer>
         </div>
 
     </div>
@@ -66,6 +69,7 @@
 
 <script>
     import anime from 'animejs'
+    import AOS from 'aos'
 
     export default {
         name: 'HelloWorld',
@@ -106,14 +110,16 @@
     .logo {
         height: 400px;
         z-index: 100;
+        mix-blend-mode: multiply;
     }
 
-    video {
+    iframe {
         position: fixed;
         z-index: -100;
         height: 100vh;
         display: -webkit-box;
         opacity: 0.75;
+        width: 100vw;
     }
 
     .landing h1 {
@@ -123,7 +129,7 @@
     }
 
     .biography {
-        background: rgba(20, 20, 20, 0.7);
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, #111 100%);
         height: 100vh;
         text-align: left;
         padding: 50px;
@@ -150,5 +156,28 @@
     .films a {
         width: 200px;
         margin: 20px;
+        display: inline-block;
+        transition: 0.3s ease;
+        color: white;
+        text-decoration: none;
+    }
+
+    .films a:hover {
+        transform: scale(1.2);
+    }
+
+    .films a img {
+        width: 100%;
+    }
+
+    footer {
+        color: white;
+        background-color: #111;
+        margin: 0;
+        padding: 0;
+    }
+    footer h4 {
+        padding: 20px;
+        margin: 0;
     }
 </style>
