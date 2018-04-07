@@ -18,6 +18,7 @@
         padding: 0;
         margin: 0;
         font-family: "futura-pt",sans-serif;
+        overflow-x: hidden;
     }
 
     .logo {
