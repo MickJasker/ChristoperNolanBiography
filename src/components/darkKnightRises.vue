@@ -3,42 +3,31 @@
         <div class="landing">
             <div class="content">
                 <router-link to="/"><i class="material-icons">keyboard_arrow_left</i></router-link>
-                <h1>THE DARK KNIGHT</h1>
-                <h3>2008</h3>
-                <p>The Dark Knight&nbsp;is a 2008&nbsp;superhero film&nbsp;directed, produced, and co-written by&nbsp;Christopher
-                    Nolan. Featuring the&nbsp;DC Comics&nbsp;character&nbsp;Batman, the film is the second part of&nbsp;Nolan's&nbsp;The
-                    Dark Knight Trilogy&nbsp;and a sequel to 2005's&nbsp;Batman Begins, starring an&nbsp;ensemble cast&nbsp;including&nbsp;Christian
-                    Bale,&nbsp;Michael Caine,&nbsp;Heath Ledger,&nbsp;Gary Oldman,&nbsp;Aaron Eckhart,&nbsp;Maggie
-                    Gyllenhaal&nbsp;and&nbsp;Morgan Freeman. In the film, Bruce Wayne/Batman (Bale), Police Lieutenant&nbsp;James
-                    Gordon&nbsp;(Oldman) and District Attorney&nbsp;Harvey Dent&nbsp;(Eckhart) form an alliance to
-                    dismantle organized crime in&nbsp;Gotham City, but are menaced by a criminal mastermind known as the&nbsp;Joker&nbsp;(Ledger)
-                    who seeks to undermine Batman's influence and create chaos.</p>
-                <p>Nolan's inspiration for the film was the Joker's comic book debut in 1940, the 1988 graphic novel&nbsp;The
-                    Killing Joke, and the 1996 series&nbsp;The Long Halloween, which retold&nbsp;Two-Face's origin. The&nbsp;"Dark
-                    Knight" nickname&nbsp;was first applied to Batman in&nbsp;Batman&nbsp;#1 (1940), in a story written
-                    by&nbsp;Bill Finger.[4][5]&nbsp;The Dark Knight&nbsp;was filmed primarily in&nbsp;Chicago, as well
-                    as in several other locations in the United States, the United Kingdom, and Hong Kong. Nolan used&nbsp;IMAX&nbsp;70&nbsp;mm
-                    film cameras to film some sequences, including the Joker's first appearance in the film.&nbsp;Warner
-                    Bros.&nbsp;initially created a&nbsp;viral marketing&nbsp;campaign for&nbsp;The Dark Knight,
-                    developing promotional websites and trailers highlighting screenshots of Ledger as the Joker. Ledger
-                    died on January 22, 2008, some months after the completed filming and six months before the film's
-                    release from a&nbsp;toxic combination of prescription drugs, leading to intense attention from the
-                    press and movie-going public.</p>
-                <p>A co-production of the United States and the United Kingdom,&nbsp;The Dark Knight&nbsp;was released
-                    on July 16, 2008 in Australia, on July 18, 2008, in North America, and on July 25, 2008, in the
-                    United Kingdom. Considered by&nbsp;film critics&nbsp;to be one of the best films of the 2000s and
-                    one of the&nbsp;best superhero films&nbsp;ever,[6][7]&nbsp;the film received highly positive
-                    reviews, particularly for its screenplay, performances (particularly Ledger's), visual effects, and
-                    direction, and set numerous records during its theatrical run.[8]&nbsp;The Dark Knight&nbsp;appeared
-                    on more critics' top ten lists (287) than any other film of 2008 with the exception of&nbsp;WALL-E,
-                    and more critics (77) named&nbsp;The Dark Knight&nbsp;the best film of 2008 than any other film
-                    released that year.[9]&nbsp;With over $1&nbsp;billion in revenue worldwide, it became the&nbsp;highest-grossing
-                    film of 2008&nbsp;and is the&nbsp;33rd highest-grossing film&nbsp;of all time, unadjusted for
-                    inflation (4th at the time of release).[10]&nbsp;The film received eight&nbsp;Academy Award&nbsp;nominations;
-                    it won the award for&nbsp;Best Sound Editing&nbsp;and Ledger was posthumously awarded&nbsp;Best
-                    Supporting Actor.[11]&nbsp;The Dark Knight Rises, the final film in the trilogy, was released on
-                    July 20, 2012.</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/EXeTwQWrcwY?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <h1>THE DARK KNIGHT RISES</h1>
+                <h3>2012</h3>
+                <p>The Dark Knight Rises&nbsp;is a 2012&nbsp;superhero film&nbsp;directed by&nbsp;Christopher Nolan, who
+                    co-wrote the screenplay with his brother&nbsp;Jonathan Nolan, and the story with&nbsp;David S.
+                    Goyer. Featuring the&nbsp;DC Comics&nbsp;character&nbsp;Batman, the film is the final installment in&nbsp;Nolan's&nbsp;The
+                    Dark Knight Trilogy, and the sequel to&nbsp;The Dark Knight&nbsp;(2008).&nbsp;Christian Bale&nbsp;reprises
+                    the lead role of Bruce Wayne/Batman, with a returning cast of allies:&nbsp;Michael Caine&nbsp;as&nbsp;Alfred
+                    Pennyworth,&nbsp;Gary Oldman&nbsp;as&nbsp;James Gordon, and&nbsp;Morgan Freeman&nbsp;as&nbsp;Lucius
+                    Fox. The film introduces&nbsp;Selina Kyle&nbsp;(Anne Hathaway) and&nbsp;Bane&nbsp;(Tom Hardy). Eight
+                    years after the events of&nbsp;The Dark Knight, merciless revolutionary Bane forces an older Bruce
+                    Wayne to resume his role as Batman and save&nbsp;Gotham City&nbsp;from nuclear destruction.</p>
+                <p>Christopher Nolan was hesitant about returning to the series for a second time, but agreed after
+                    developing a story with his brother and Goyer that he felt would conclude the series on a
+                    satisfactory note. Nolan drew inspiration from Bane's comic book debut in the 1993 "Knightfall"
+                    storyline, the 1986 series&nbsp;The Dark Knight Returns, and the 1999 storyline "No Man's Land".
+                    Filming took place from May to November of 2011 in locations including&nbsp;Jodhpur, London,&nbsp;Nottingham,
+                    Glasgow, Los Angeles, New York City,&nbsp;Newark, and&nbsp;Pittsburgh. Nolan used&nbsp;IMAX&nbsp;70&nbsp;mm
+                    film cameras for much of the filming, including the first six minutes of the film, to optimize the
+                    quality of the picture. A vehicle variation of the&nbsp;Batplane&nbsp;and&nbsp;Batcopter&nbsp;termed
+                    the "Bat", an underground prison set, and a new&nbsp;Batcave&nbsp;set were created specifically for
+                    the film. As with&nbsp;The Dark Knight,&nbsp;viral marketing&nbsp;campaigns began early during
+                    production. When filming concluded, Warner Bros. refocused its campaign: developing promotional
+                    websites, releasing the first six minutes of the film, screening theatrical trailers, and sending
+                    out information regarding the film's plot.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GokKUqLcvD8?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -46,13 +35,13 @@
 
 <script>
     export default {
-        name: "momento"
+        name: "darkKnightRises"
     }
 </script>
 
 <style scoped>
     .landing {
-        background-image: url('../assets/darkKnightBg.jpg');
+        background-image: url('../assets/darkKnightRises.jpg');
         min-height: 100vh;
         background-size: cover;
         background-attachment: fixed;
