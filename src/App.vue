@@ -1,6 +1,8 @@
 <template>
     <div id="app">
-        <router-view/>
+        <transition name="fade">
+            <router-view/>
+        </transition>
     </div>
 </template>
 
@@ -37,4 +39,11 @@
     /* Rules for using icons as white on a dark background. */
     .material-icons.md-light { color: rgba(255, 255, 255, 1); }
     .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+    .fade-enter-active, .fade-leave-active {
+        transition: opacity .5s;
+    }
+    .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+        opacity: 0;
+    }
 </style>
