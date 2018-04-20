@@ -13,7 +13,9 @@
     "ajv": "^6.2.1",
     "animejs": "^2.2.0",
     "aos": "^2.2.0",
+    "lottie-web": "^5.1.10",
     "vue": "^2.5.2",
+    "vue-lottie": "^0.2.1",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
